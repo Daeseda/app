@@ -24,17 +24,6 @@ class ReviewWriteViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let reviewWriteBarBtnItem = UIBarButtonItem(
-            title: "등록",
-            style: .plain,
-            target: self,
-            action: #selector(reviewWriteBarBtnTab) // 오른쪽 아이템 탭 시 실행할 메서드
-        )
-        
-        // 네비게이션 바에 오른쪽 아이템 설정
-        navigationItem.rightBarButtonItem = reviewWriteBarBtnItem
-        
-        
         self.reviewTextView.layer.borderWidth = 1.0
         self.reviewTextView.layer.borderColor = UIColor.black.cgColor
         
@@ -59,17 +48,12 @@ class ReviewWriteViewController: UIViewController {
         // 탭 바를 숨깁니다.
         tabBarController?.tabBar.isHidden = true
     }
-    
+
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         // 다른 화면으로 이동할 때 탭 바를 다시 보이게 합니다.
         tabBarController?.tabBar.isHidden = false
     }
-    
-    @objc func reviewWriteBarBtnTab(_ sender: UIBarButtonItem) {
-        self.navigationController?.popViewController(animated: true)
-    }
-
     
     @objc func starButtonTapped(_ sender: UIButton) {
         // 별점 버튼을 터치했을 때 호출되는 메서드
@@ -107,7 +91,7 @@ extension ReviewWriteViewController: UIPickerViewDelegate {
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
         return allCategorys[row]
     }
-    
+
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         let selectedCategory = allCategorys[row]
         reviewWriteCategoryBtn.setTitle(selectedCategory, for: .normal)

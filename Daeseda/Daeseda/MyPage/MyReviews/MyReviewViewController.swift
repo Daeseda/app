@@ -51,18 +51,6 @@ class MyReviewViewController : UIViewController {
         myReviewTableView.rowHeight = UITableView.automaticDimension
         myReviewTableView.estimatedRowHeight = UITableView.automaticDimension
     }
-    
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        // 탭 바를 숨깁니다.
-        tabBarController?.tabBar.isHidden = true
-    }
-
-    override func viewWillDisappear(_ animated: Bool) {
-        super.viewWillDisappear(animated)
-        // 다른 화면으로 이동할 때 탭 바를 다시 보이게 합니다.
-        tabBarController?.tabBar.isHidden = false
-    }
 }
 
 extension MyReviewViewController: UITableViewDelegate {

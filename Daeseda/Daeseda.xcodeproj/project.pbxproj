@@ -48,14 +48,6 @@
 		8EE728C02AC40484002C46B3 /* TestRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE728BF2AC40484002C46B3 /* TestRequest.swift */; };
 		8EE728C32AC40BF4002C46B3 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE728C22AC40BF4002C46B3 /* LoginModel.swift */; };
 		8EE728C52AC40C63002C46B3 /* SignupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE728C42AC40C63002C46B3 /* SignupModel.swift */; };
-		8EE7E6282AD2A7B000700A82 /* MoreAdressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE7E6272AD2A7B000700A82 /* MoreAdressViewController.swift */; };
-		8EE855EE2AD04928007ECE13 /* AdressEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE855ED2AD04928007ECE13 /* AdressEditViewController.swift */; };
-		8EE855F02AD0540B007ECE13 /* MyHomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE855EF2AD0540B007ECE13 /* MyHomeTableViewCell.swift */; };
-		8EE855F22AD05BD1007ECE13 /* MyAdressTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE855F12AD05BD1007ECE13 /* MyAdressTableViewCell.swift */; };
-		8EE855F52AD06B38007ECE13 /* EditHomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE855F42AD06B38007ECE13 /* EditHomeTableViewCell.swift */; };
-		8EE855F72AD06B42007ECE13 /* EditOtherAdressTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE855F62AD06B42007ECE13 /* EditOtherAdressTableViewCell.swift */; };
-		8EF3BCE82ACD5AE70022DBC8 /* ShowFaqViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF3BCE72ACD5AE70022DBC8 /* ShowFaqViewController.swift */; };
-		8EF3BCEA2ACD5B010022DBC8 /* FaqTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF3BCE92ACD5B010022DBC8 /* FaqTableViewCell.swift */; };
 		CC1183752AB14AFF00CE4BD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1183742AB14AFF00CE4BD2 /* AppDelegate.swift */; };
 		CC1183772AB14AFF00CE4BD2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1183762AB14AFF00CE4BD2 /* SceneDelegate.swift */; };
 		CC1183792AB14AFF00CE4BD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1183782AB14AFF00CE4BD2 /* ViewController.swift */; };
@@ -120,14 +112,6 @@
 		8EE728BF2AC40484002C46B3 /* TestRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRequest.swift; sourceTree = "<group>"; };
 		8EE728C22AC40BF4002C46B3 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
 		8EE728C42AC40C63002C46B3 /* SignupModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupModel.swift; sourceTree = "<group>"; };
-		8EE7E6272AD2A7B000700A82 /* MoreAdressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreAdressViewController.swift; sourceTree = "<group>"; };
-		8EE855ED2AD04928007ECE13 /* AdressEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdressEditViewController.swift; sourceTree = "<group>"; };
-		8EE855EF2AD0540B007ECE13 /* MyHomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHomeTableViewCell.swift; sourceTree = "<group>"; };
-		8EE855F12AD05BD1007ECE13 /* MyAdressTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAdressTableViewCell.swift; sourceTree = "<group>"; };
-		8EE855F42AD06B38007ECE13 /* EditHomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditHomeTableViewCell.swift; sourceTree = "<group>"; };
-		8EE855F62AD06B42007ECE13 /* EditOtherAdressTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditOtherAdressTableViewCell.swift; sourceTree = "<group>"; };
-		8EF3BCE72ACD5AE70022DBC8 /* ShowFaqViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowFaqViewController.swift; sourceTree = "<group>"; };
-		8EF3BCE92ACD5B010022DBC8 /* FaqTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaqTableViewCell.swift; sourceTree = "<group>"; };
 		94732938D3F457F1B3DF2B28 /* Pods-Daeseda.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Daeseda.release.xcconfig"; path = "Target Support Files/Pods-Daeseda/Pods-Daeseda.release.xcconfig"; sourceTree = "<group>"; };
 		C2A0D6DEDDDB0CD50758AD79 /* Pods-Daeseda.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Daeseda.debug.xcconfig"; path = "Target Support Files/Pods-Daeseda/Pods-Daeseda.debug.xcconfig"; sourceTree = "<group>"; };
 		CC1183712AB14AFF00CE4BD2 /* Daeseda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Daeseda.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -236,8 +220,6 @@
 			isa = PBXGroup;
 			children = (
 				8E7B418A2AC0532B00560B86 /* FaqViewController.swift */,
-				8EF3BCE92ACD5B010022DBC8 /* FaqTableViewCell.swift */,
-				8EF3BCE72ACD5AE70022DBC8 /* ShowFaqViewController.swift */,
 			);
 			path = Faq;
 			sourceTree = "<group>";
@@ -293,10 +275,6 @@
 			isa = PBXGroup;
 			children = (
 				8E7539DC2ABBFB06004F979D /* MyAdressViewController.swift */,
-				8EE855EF2AD0540B007ECE13 /* MyHomeTableViewCell.swift */,
-				8EE855F12AD05BD1007ECE13 /* MyAdressTableViewCell.swift */,
-				8EE855F32AD0690F007ECE13 /* AdressEdit */,
-				8EE7E6262AD2A77600700A82 /* MoreAdress */,
 			);
 			path = MyAdres;
 			sourceTree = "<group>";
@@ -308,24 +286,6 @@
 				8EE728C42AC40C63002C46B3 /* SignupModel.swift */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		8EE7E6262AD2A77600700A82 /* MoreAdress */ = {
-			isa = PBXGroup;
-			children = (
-				8EE7E6272AD2A7B000700A82 /* MoreAdressViewController.swift */,
-			);
-			path = MoreAdress;
-			sourceTree = "<group>";
-		};
-		8EE855F32AD0690F007ECE13 /* AdressEdit */ = {
-			isa = PBXGroup;
-			children = (
-				8EE855ED2AD04928007ECE13 /* AdressEditViewController.swift */,
-				8EE855F42AD06B38007ECE13 /* EditHomeTableViewCell.swift */,
-				8EE855F62AD06B42007ECE13 /* EditOtherAdressTableViewCell.swift */,
-			);
-			path = AdressEdit;
 			sourceTree = "<group>";
 		};
 		C13D4A34B613E73F5A4A720B /* Pods */ = {
@@ -557,25 +517,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EF3BCEA2ACD5B010022DBC8 /* FaqTableViewCell.swift in Sources */,
 				8E7539E22ABBFB06004F979D /* MyInfoEditViewController.swift in Sources */,
 				CC62A2002AB671FD0005A676 /* ResettingPasswordViewController.swift in Sources */,
 				CC62A1FA2AB671AB0005A676 /* LoginViewController.swift in Sources */,
 				8EE728C02AC40484002C46B3 /* TestRequest.swift in Sources */,
-				8EE7E6282AD2A7B000700A82 /* MoreAdressViewController.swift in Sources */,
 				8E94FFF62AC1D2B5006B8E9E /* ShowQnaViewController.swift in Sources */,
 				8E7B41862AC04DAA00560B86 /* CompanyInfoViewController.swift in Sources */,
 				8E7B41842AC04C6F00560B86 /* PrivacyPolicyViewController.swift in Sources */,
 				8EE728C52AC40C63002C46B3 /* SignupModel.swift in Sources */,
 				8E7539E12ABBFB06004F979D /* CustomerServiceViewController.swift in Sources */,
-				8EE855F02AD0540B007ECE13 /* MyHomeTableViewCell.swift in Sources */,
-				8EF3BCE82ACD5AE70022DBC8 /* ShowFaqViewController.swift in Sources */,
 				8E7539EB2ABDDA18004F979D /* TestViewController.swift in Sources */,
 				CC62A1F82AB671700005A676 /* IdFindViewController.swift in Sources */,
 				8EB01A7E2AC2E60D00DA41DC /* ReviewListTableViewCell.swift in Sources */,
 				8E7539DE2ABBFB06004F979D /* SettingsViewController.swift in Sources */,
 				8E94FFFA2AC1F5D0006B8E9E /* ComentTableViewCell.swift in Sources */,
-				8EE855EE2AD04928007ECE13 /* AdressEditViewController.swift in Sources */,
 				CC62A2162AB72F140005A676 /* MainTabBarViewController.swift in Sources */,
 				8E7539E32ABBFB06004F979D /* MyInfoViewController.swift in Sources */,
 				8E7539E42ABBFB06004F979D /* MyAdressViewController.swift in Sources */,
@@ -595,9 +550,7 @@
 				8E7B41912AC0806900560B86 /* NoticeTableViewCell.swift in Sources */,
 				8E7539E72ABC0CE9004F979D /* ServiceViewController.swift in Sources */,
 				8E7B41892AC052FD00560B86 /* NoticeViewController.swift in Sources */,
-				8EE855F52AD06B38007ECE13 /* EditHomeTableViewCell.swift in Sources */,
 				8EA5A1C62AB18E2100AAE23C /* WDFont.swift in Sources */,
-				8EE855F72AD06B42007ECE13 /* EditOtherAdressTableViewCell.swift in Sources */,
 				8E546DF72AC13C8B00DD353E /* ShowNoticeViewController.swift in Sources */,
 				8E7539DF2ABBFB06004F979D /* MyReviewViewController.swift in Sources */,
 				CC1183752AB14AFF00CE4BD2 /* AppDelegate.swift in Sources */,
@@ -605,7 +558,6 @@
 				8E94FFF82AC1DBB2006B8E9E /* QnaTableViewCell.swift in Sources */,
 				8EE728C32AC40BF4002C46B3 /* LoginModel.swift in Sources */,
 				8E7539E52ABBFB06004F979D /* MypageGuestViewController.swift in Sources */,
-				8EE855F22AD05BD1007ECE13 /* MyAdressTableViewCell.swift in Sources */,
 				CC1183772AB14AFF00CE4BD2 /* SceneDelegate.swift in Sources */,
 				8E7539D22ABBFAF3004F979D /* ReviewWriteViewController.swift in Sources */,
 				CCB27ECD2AB8A9A10053EA0B /* NetworkResult.swift in Sources */,
